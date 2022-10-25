@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="TP5,UE-DI-POLYG-TP5.TP5,scalix.TP5,ue-di-polyg-tp5,ue-di-polyg-tp5_618" />
+  </component>
+</project>
