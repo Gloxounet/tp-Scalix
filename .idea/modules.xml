@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TP5.iml" filepath="$PROJECT_DIR$/.idea/modules/TP5.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TP5-build.iml" filepath="$PROJECT_DIR$/.idea/modules/TP5-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UE-DI-POLYG-TP5.TP5.iml" filepath="$PROJECT_DIR$/.idea/modules/UE-DI-POLYG-TP5.TP5.iml" />
     </modules>
   </component>
 </project>
