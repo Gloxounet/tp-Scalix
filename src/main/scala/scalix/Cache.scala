@@ -28,20 +28,6 @@ class Cache[T, V](name: String) {
 
   def loadCache(): Unit = {
     val cacheReader = Source.fromFile(name).reader()
-    //    val cache = cacheReader.getLines()
-    //    for (line <- cache) {
-    //      val (k, v) = line.split(":") match
-    //        case Array(k, v) => (k,v)
-    //
-    //      if T instanceof Tuple then {
-    //
-    //      }
-    //      if k.contains(",") then {
-    //
-    //      }
-    //
-    //      println(k + v)
-    //    }
     val mapper = JsonMapper.builder().addModule(DefaultScalaModule).build()
     val map = mapper.readValue(cacheReader, new TypeReference[Map[T, V]]{})
     cacheReader.close()
